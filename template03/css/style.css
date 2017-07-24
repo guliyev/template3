@@ -1,0 +1,357 @@
+
+
+body,html{
+
+    margin: 0;
+    padding:0;
+    background-image: url( https://livedemo00.template-help.com/wordpress_53763/wp-content/themes/theme53763/images/header.jpg
+)
+}
+
+
+.nav{
+    width: 100%;
+    height: 60px;
+    background: #f3f5f8;
+}
+.newitem{
+    width:calc(33.33% - 20px );
+    margin: 10px;
+    height: 60px;
+    float: left;
+    padding-top: 0px;
+}
+.newitem>img{
+
+    padding-left: 10px;
+    position: relative;
+}
+.newitem>p{
+    display: inline-block;
+    position: absolute;
+    padding-left: 10px;
+    font-family: sans-serif;
+
+}
+.newitem  a{
+border-bottom: 1px dashed blue;
+text-decoration: none;
+
+    
+}
+
+
+.newitem button{
+    width: 136px;;
+    height: 30px;
+    background: red;
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    float: right;
+    margin-left: 265px;
+    border-top-width: 0px;
+    margin-top: 12px;
+}
+.verticalLine{
+
+    width: 75%;
+    height:5px;
+    background-color: greenyellow;
+    margin:0 auto;
+}
+.perfectRent{
+    width: 75%;
+    height: 300px;
+    background: #f3f5f8;
+    margin: 0 auto;
+    text-align: center;
+}
+.perfectRent img{
+    padding-top: 50px;
+    text-align: center;
+}
+.perfectRent p{
+    color: gray;
+    font-family:"Valera Round"
+}
+.navitem ul{
+    height: 20px;
+    background: red;
+    margin: 10px auto;
+    text-align: center;
+    display: inline-block;
+    
+}
+.rolimage{
+
+    width:75%;
+    height:500px;
+    
+    margin:0 auto;
+    position: relative;
+}
+ .mySlider{
+
+    width: 100%;
+    height:500px;
+    background-color: gray;
+} 
+.mySlider img{
+
+    width: 100%;
+    height: 100%;
+}
+
+
+.fade{
+
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade{
+
+    from{opacity: .4};
+    to{opacity: 1}
+
+}
+@keyframes fade{
+
+    from{opacity:  .4}
+    to{opacity: 1}
+}
+.MainBlog{
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+   
+}
+.MainBlog >.Blog{
+    width: calc(33.33%  - 20px);
+    margin:10px;
+    height: 350px;
+    background: #f3f5f8;
+    float: left;
+    position: relative;
+
+}
+.MainBlog >.Blog img{
+    width: 100%;
+    height: 200px;
+    float: left;
+    margin-right: 350px;
+    position: absolute;
+}
+.MainBlog >.Blog div{
+    width: 100%;
+    height: 100px;
+    margin-top: 210px;
+}
+.MainBlog  h1{
+color:#d2c970;
+text-align: center;
+
+
+}
+.MainBlog  p{
+    -webkit-text-fill-color:#b2ad9d;
+}
+input[type=text] {
+    width: 80%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    border-radius: 10px;
+    
+}
+.Button{
+    height: 50px;
+    width: 100px;
+    color: #f3f5f8;
+    background: #bce623;
+    border-radius: 10px;
+}
+.Search{
+    height:100px;
+    width: 500px;
+    margin: 0 400px;
+  
+}
+.TextApartment{
+    text-align:left;
+    background: #f3f5f8;
+    margin: 20px;
+    margin-top: 80px;
+    
+}
+.clear{
+    clear:both;
+}
+.bigSection{
+
+width: 75%;
+height: 250px;
+margin: 0 auto;
+margin-top: 200px;
+}
+.kubik{
+    width:calc(47.87% - 20px);
+    height:200px;
+    background:  #629090;
+    float: left;
+    margin: 20px;
+    padding-left: 0px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+.kubik h2{
+    margin: 0 auto;
+    margin-top: 0px;
+    line-height: 28px;
+    font-size: 25px;
+    text-align: center;
+    color:greenyellow;
+}
+.kubik h4{
+
+     color:#616156;
+}
+button{
+        height: 40PX;
+        width: 20%;
+        background: #6b5f53;
+        color: darkblue;
+    }
+.animation{
+    background-image: url(../img/01.png);
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    background-attachment: fixed;
+    
+}
+.inAnime{
+    height: 300px;
+    width: 600px;
+    margin: 0 auto;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 300px;
+}
+.inAnime >button{
+    width: 700px;
+    height: 300px;
+    background: rgba(37,30,27,0.4);
+    margin-top: 100px;
+}
+.inAnime b{
+   font-size: 80px;
+   margin-top: 20px;
+   color: white;
+}
+.inAnime h2{
+   font-size: 50px;
+   margin-top: 20px;
+   color: white;
+}
+.button{
+    height: 700px;
+    width: 500px;
+    float: left;
+    margin: 0 auto;
+    margin-left: 30%;
+    margin-top: 60px;
+    color: gray;
+}
+
+.button >button{
+    background: #a8d700;
+    float: left;
+    margin:0 auto;
+    border-radius: 5px;
+}
+.BigKubik h1{
+ text-align: center;
+ font-size: 35px;
+ color: #6b5f53;
+}
+.BigKubik{
+    height: 1300%;
+    width: 80%;
+    margin: 0 auto;
+    background: #f3f5f8;
+}
+.indexkubik{
+    width: calc(33.33% - 40px);
+    margin: 10px;
+    height: 200px;
+    float: left;
+    position: relative;
+    margin-top: 120px;
+}
+.indexX{
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    margin: 0 auto;
+    margin-left: 70px;
+    
+}
+.indexX img{
+    width: 100%;
+    height: 200px;
+    float: left;
+    border-radius: 10px;
+}
+.Btn{
+  
+height: 150px;
+width: 200px;
+margin: 0 auto;
+}
+
+.Btn button{
+
+height: 30px;
+width: 70px;
+margin: 0;
+margin-top: 0px;
+margin-left: 40px;
+}
+.animation2{
+    background-image: url(../img/0101.jpg);
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: none;
+}
+.sonSection{
+    height: 600px;
+    width: 100%;
+    background: #f3f5f8;
+}
+.div hr{
+    border-left-width: 0px;
+    width: 160px;
+    margin-left: 0px;
+    background: gray;
+
+}
+.div h1{
+    margin:  0 auto;
+}
